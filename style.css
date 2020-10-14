@@ -1,0 +1,16 @@
+#app {
+  text-align: center;
+}
+
+#app h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#app button {
+  font-size: 3em;
+  margin: 30px;
+  height: 3em;
+  width: 4em;
+}
+
