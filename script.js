@@ -3,8 +3,9 @@
 
   const obniz = new Obniz();
   obniz.onconnect = async () => {
-    const led1 = obniz.wired('LED', {anode:0, cathode:1});
-    const led2 = obniz.wired('LED', {anode:10, cathode:11});
+    $('#text').text('obnizに接続しました。');
+    const led1 = obniz.wired('LED', {anode: 0, cathode: 1});
+    const led2 = obniz.wired('LED', {anode: 10, cathode: 11});
 
     $('#before').on('click', () => {
       led1.on();
